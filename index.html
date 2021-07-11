@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Control System</title>
+    <link rel="stylesheet" href="CSS.css">   
+
+</head>
+
+
+<body>
+ 
+    <div class = "slideContainer">
+        
+        <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+        <form id="myForm" action="index.php" method ="POST" target="dummyframe">
+      
+        <!--المحرك 1-->
+        <h2>Motor1</h2>
+        <div class = "motor1">
+        <input type="range" min = "0" max = "180" value="90" id = "Range1" class = "slider" name = "M1">
+        <p>Value: <span id = "value1"></span></p>
+        </div>
+
+        <!--المحرك 2-->
+        <h2>Motor2</h2>
+        <div class = "motor2">
+        <input type="range" min = "0" max = "180" value="90" id = "Range2" class = "slider" name = "M2">
+        <p>Value: <span id = "value2"></span></p>
+        </div>
+
+        
+        <!--المحرك 3-->
+        <h2>Motor3</h2>
+        <div class = "motor3">
+        <input type="range" min = "0" max = "180" value="90" id = "Range3" class = "slider" name = "M3">
+        <p>Value: <span id = "value3"></span></p>
+        </div>
+
+        <!--المحرك 4-->
+        <h2>Motor4</h2>
+        <div class = "motor4">
+        <input type="range" min = "0" max = "180" value="90" id = "Range4" class = "slider" name = "M4">
+        <p>Value: <span id = "value4"></span></p>
+        </div>
+
+        <!--المحرك 5-->
+        <h2>Motor5</h2>
+        <div class = "motor5">
+        <input type="range" min = "0" max = "180" value="90" id = "Range5" class = "slider" name = "M5">
+        <p>Value: <span id = "value5"></span></p>
+        </div>
+
+        <!--المحرك 6-->
+        <h2>Motor6</h2>
+        <div class = "motor6">
+        <input type="range" min = "0" max = "180" value="90" id = "Range6" class = "slider" name = "M6">
+        <p>Value: <span id = "value6"></span></p>
+        </div>
+
+        <br><br>
+		<p>
+
+        </p><table id= "table">
+
+        <tr>
+          <th> </th>
+          <th> </th>
+          <th> </th>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> <input type="submit" class ="Forward"  value = "Forward" name =forward > </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> <input type="submit" class="Left" value = "Left" name =left > </td>
+          <td> <input type="submit" class="Stop" value = "Stop" name =stop > </td>
+          <td> <input type="submit" class="Right" value = "Right" name =right > </td>
+        </tr> 
+        <tr>
+          <td> </td>
+          <td> <input type="submit" class ="Backward" value = "Backward" name =backward > </td>
+          <td> </td>
+        </tr>
+		<tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+    
+        </table>   
+		<br><br>
+
+        <br><br>
+        <input class= ON type="submit" value = "ON" name =on>
+        <input class= OFF type="submit" value = "OFF" name =off>
+        <br><br>
+		<input class= SAVE type="submit" value = "Save" name = save>
+	    <br><br>
+
+        </form>
+    </div>
+	
+</body>
+
+<script src="JS.js"></script>
+
+</html>

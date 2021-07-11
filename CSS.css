@@ -1,0 +1,130 @@
+body{
+    background-image: url("https://image.freepik.com/free-vector/realistic-design-technology-background_23-2148426705.jpg");
+    background-size: 100% 100%;
+	font-family: Cursive;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    color: black;  
+}
+
+*{
+	padding: 0;
+}
+
+p{
+  	text-align: left;
+    margin-left: 100px;	
+}
+
+h2{
+    text-align: center;
+}
+
+.slideContainer{
+	background-color: white;
+	opacity: 0.7;
+    width: 50%;      
+    margin: 100px;
+	text-align: center;
+
+}
+
+.slider{
+    -webkit-appearance: none;
+    width: 70%;
+    height: 7px;
+    background: gray;
+    outline: none;  
+    opacity: 0.7;
+    -webkit-transition: 0.2s;   
+    transition:  0.2s;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 1px gray;	
+}
+
+.slider :hover{
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+  }
+  
+.ON{
+    font-size: 25px;
+    border-radius: 50px;	
+}
+.OFF{
+    font-size: 25px; 
+    background: black; 
+    border-radius: 50px; 
+    color: white; 	
+}
+.SAVE{
+    font-size: 30px; 
+    border-radius: 10px;	
+    margin-bottom: 10px;
+}  
+
+
+#table{
+	margin: 0 auto;
+	
+}
+
+.Forward{
+	width: 0;
+	height: 0;
+	border-left: 52px solid transparent;
+	border-right: 55px solid transparent;
+	border-bottom: 65px solid #555;
+	font-size: 20%;
+
+}
+
+.Left{
+	margin-left: -1%;
+    width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-right: 65px solid #555;
+	border-bottom: 50px solid transparent;
+	
+}
+
+.Right{
+	margin-top: 2%;
+    width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 65px solid #555;
+	border-bottom: 50px solid transparent;	
+}
+
+.Stop{
+    margin-right: 3%;
+	margin-left: 3%;
+	height: 80px;
+    width: 80px;
+    background-color: #555;
+    border-radius: 50%;
+	color: white;
+	font-size: 140%;
+	text-align: center;
+}
+
+.Backward{
+    width: 0;
+	height: 0;
+	border-left: 52px solid transparent;
+	border-right: 55px solid transparent;
+	border-top: 65px solid #555;	
+}
