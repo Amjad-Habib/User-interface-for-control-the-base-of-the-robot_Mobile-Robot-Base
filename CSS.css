@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://image.freepik.com/free-vector/realistic-design-technology-background_23-2148426705.jpg");
+    background-image: url('img.jpg');
     background-size: 100% 100%;
 	font-family: Cursive;
     padding: 0px;
@@ -24,7 +24,7 @@ h2{
 
 .slideContainer{
 	background-color: white;
-	opacity: 0.7;
+	opacity: 0.8;
     width: 50%;      
     margin: 100px;
 	text-align: center;
